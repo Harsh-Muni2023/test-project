@@ -823,7 +823,7 @@ let icon  = document.getElementById("icon");
 let ul = document.getElementById("ultag");
 
 icon.addEventListener("click",() => {
-    drop.style.display = "none";
+    // drop.style.display = "none";
     ul.classList.toggle("nav-height");
 })
 
